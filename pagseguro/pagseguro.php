@@ -145,6 +145,7 @@ class PagSeguro extends PaymentModule {
         }
         if (!parent::install() or
             ! $this->registerHook('paymentReturn') or
+            ! $this->registerHook('paymentOptions') or
             ! $this->registerHook('header') or
             ! Configuration::updateValue('PAGSEGURO_EMAIL', '') or
             ! Configuration::updateValue('PAGSEGURO_TOKEN', '') or
