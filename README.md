@@ -1,4 +1,4 @@
-Módulo de integração PagSeguro para PrestaShop 1.4, 1.5 e 1.6
+Módulo de integração PagSeguro para PrestaShop 1.4, 1.5, 1.6 e 1.7
 =============================================================
 ---
 Descrição
@@ -13,7 +13,7 @@ Com o módulo instalado e configurado, você pode pode oferecer o PagSeguro como
 Requisitos
 ----------
 ---
- - [PrestaShop] 1.4.5.1 a 1.6.0.9
+ - [PrestaShop] 1.4.5.1 a 1.7.2.2
  - [PHP] 5.4.27+
  - [SPL]
  - [cURL]
